@@ -20,19 +20,14 @@ describe("Appointments", () => {
     });
   
     it("should cancel an interview", () => {
-      // Click the delete button for an existing appointment
       cy.get("[alt=Delete]").click();
   
-      // Click the confirm button
       cy.contains("Confirm").click();
   
-      // Ensure the "Deleting" indicator is shown
       cy.contains("Deleting").should("exist");
   
-      // Ensure the "Deleting" indicator is removed
       cy.contains("Deleting").should("not.exist");
   
-      // Ensure the appointment slot is empty
       cy.contains(".appointment__card--show", "Archie Cohen").should("not.exist");
     });
   });
