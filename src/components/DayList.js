@@ -1,3 +1,5 @@
+// -- Daylist Component -- //
+
 import React from "react";
 
 import DayListItem from "components/DayListItem";

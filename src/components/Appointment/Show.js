@@ -1,3 +1,6 @@
+// -- Show Component -- //
+
+
 import React from "react";
 
 export default function Show(props) {

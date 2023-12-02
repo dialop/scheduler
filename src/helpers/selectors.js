@@ -1,3 +1,5 @@
+// -- Helper Selecting Data from Application State -- //
+
 export function getAppointmentsForDay(state, day) {
   const found = state.days.find(d => day === d.name);
 

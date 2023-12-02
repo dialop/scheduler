@@ -1,3 +1,5 @@
+// -- Main Application Component -- //
+
 import React from "react";
 
 import {

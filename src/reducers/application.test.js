@@ -1,3 +1,5 @@
+// --  Application Reducer Test -- //
+
 import reducer from "reducers/application";
 
 describe("Application Reducer", () => {

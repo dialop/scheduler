@@ -1,3 +1,5 @@
+// -- Empty Component -- //
+
 import React from "react";
 
 export default function Empty(props) {

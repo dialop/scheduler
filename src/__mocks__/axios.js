@@ -1,3 +1,5 @@
+// -- Mock HTTP Requests -- //
+
 const fixtures = {
   days: [
     {
